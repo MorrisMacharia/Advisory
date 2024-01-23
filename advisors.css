@@ -1,0 +1,43 @@
+body {
+  background-image: url(images/image.png);
+  width: 1300px;
+  height:  500px;
+  padding: 50px 0 16px 30px;
+}
+.section {
+  width: 877px;
+  height: 271px;
+  flex-shrink: 0;
+  color: #97aad7;
+  font-family: Tekp;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 164.8%; /* 95.584px */
+  letter-spacing: 2.9px;
+  text-transform: capitalize;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.touch {
+  color: #fff;
+  font-family: Syncopate;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: flex-start;
+}
+.flag{
+    display: flex;
+    /* align-items: center; */
+    color: aliceblue;
+    justify-content: flex-end;
+    padding-right: 30px;
+    gap: 15px;
+    font-size: 16px;
+}
